@@ -1,0 +1,48 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* padding: 5px 5px; */
+   
+  }
+
+ 
+  table{
+    width: 100%;
+  }
+  .colspan-3-5{
+    width: 50%;
+  }
+
+  .setwidth{
+   
+    width: 50%;
+   
+  }
+  .space{
+    height: 20px;
+  }
+  .list-items{
+    list-style: none;
+  }
+  .heigh td{
+    height: 400px;
+  }
+  
+  .no-bottom-border td {
+    border-bottom: none;
+  }
+  tr:first-child td {
+    border-top: none; /* Remove border top from first row */
+  }
+  tr:last-child td {
+    border-bottom: none; /* Remove border bottom from last row */
+  }
+  tr {
+    border-bottom: none;
+  }
+  table .remove td{
+    border-bottom: 1px solid transparent;
+  }
+  table .border-right{
+    border-right: 1px solid transparent;
+  }
